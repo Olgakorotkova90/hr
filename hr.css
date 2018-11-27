@@ -1,0 +1,53 @@
+h1 {
+    margin: 0px;
+    padding: 30px;
+    background-color:#b890ae;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+p {
+    font-size:110%;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(85, 39, 66);
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.vacancy {
+    margin: 0px;
+    background-color:#f8f6f6;
+}
+.details{
+    margin: 20px 50px 0px 50px;
+    background-color: white;
+}
+#interviewdate {
+    margin: 0px;
+}
+.back{
+    background-color: white;
+}
+div > img {
+    margin: 0px 20px 0px 20px;
+}
+#name {
+    font-size:150%;
+    text-shadow: #464144;
+}
+a:link{
+    text-decoration: unset;
+    
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    color: purple;
+    font-size:110%;
+    
+
+}

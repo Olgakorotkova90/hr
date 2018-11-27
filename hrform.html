@@ -2,30 +2,23 @@
 <html>
 <head>
 <title>HR-form</title>
-<style>
-p {
-    font-size:110%;
-    font-weight: bold;
-}
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-</style>
+<link rel="stylesheet" href="hr.css">
 </head>
 <body>
 
 <h1>Вакансия: Junior Frontend Developer</h1>
-<div>
+<div class="back">
+<div class="vacancy">
     <div style='display:inline-block'><img src="BY1T0022.jpg" width="139" height="185"></div>
-    <div style='display:inline-block; vertical-align:top'><p>Короткова Ольга Александровна</p><a href="https://github.com/Olgakorotkova90/hr.git" style="color:black">Ссылка на репозиторий в Github</a><br>Опыт работы:нет</div>
+    <div style='display:inline-block; vertical-align:top'><p id="name">Короткова Ольга Александровна</p><a href="https://github.com/Olgakorotkova90/hr.git" target="_blank">Ссылка на репозиторий в Github</a><br>Опыт работы:нет</div>
 </div>
-<p>Дата собеседования: <input type="date" name="interviewday"></p>
+<div class="details">
+<p id="interviewdate">Дата собеседования: <input type="date" name="interviewday"></p>
 <p>Уровень английского:</p>
 <input type="radio" name="lang" value="bad">Плохо
 <input type="radio" name="lang" value="mid">Средне
 <input type="radio" name="lang" value="good">Хорошо
-<input type="radio" name="lang" value="excelent">Превосходно
+<input type="radio" name="lang" value="excellent">Превосходно
 <p>Ключевые навыки:</p>
 <ul>
     <li>HTML</li>
@@ -38,7 +31,7 @@ table, th, td {
 <p>Коммуникабельность:
 <select name="interpersonal" aria-placeholder="Выберете значение" >
     <option value="choose" selected disabled>Выберете значение</option>
-    <option value="bad">Низкий уровень</option>
+    <option value="low">Низкий уровень</option>
     <option value="mid">Средний уровень</option>    
     <option value="excelent">Отличный уровень</option>
   </select></p>
@@ -73,7 +66,8 @@ table, th, td {
         <td>Политехнический университет, экономист</td>   
     </tr>
 </table>
-
+</div>
+</div>
 
 </body>
 </html>
