@@ -10,13 +10,14 @@ p {
     font-size:110%;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(85, 39, 66);
+    color:#41263a;
 }
 table, th, td {
-    border: 1px solid black;
+    border: 2px solid  #68385c ;
     text-align: center;
-    
+    border-collapse: collapse;
 }
+ 
 .vacancy {
     margin: 0px;
     background-color:#f8f6f6;
@@ -47,7 +48,72 @@ a:visited{
 }
 a:hover{
     color: purple;
-    font-size:110%;
-    
+    font-size:110%;  
 
 }
+input[type=text],[type=number],[type=date] {
+    border: 1px solid #b890ae;
+    border-radius: 4px;
+}
+input[type=text]:focus,[type=number]:focus,[type=date]:focus{
+    background-color: #e6d2e1;
+}
+select{
+    border: 1px solid #b890ae;
+    border-radius: 4px;
+}
+select:focus{
+    background-color: #e6d2e1;
+}
+input[type=submit]{
+    background-color: #662b56;
+    color: white;
+
+}
+.cr1::after {
+    content: '\f086';
+    font-family:'Font Awesome 5 Free';
+    margin-left: 4px;
+    margin-right: 10px;
+    color: #945711
+    
+    
+}
+.cr2::after {
+    content: '\f3d1';
+    font-family:'Font Awesome 5 Free';
+    margin-left: 4px;
+    margin-right: 10px;
+    color: #3e795b
+    
+}
+.cr3::after {
+    content: '\f0eb';
+    font-family:'Font Awesome 5 Free';
+    margin-left: 4px;
+    margin-right: 10px;
+    color: #e7e425
+    
+    
+}
+.cr4::after {
+    content: '\f582';
+    font-family:'Font Awesome 5 Free';
+    margin-left: 4px;
+    margin-right: 10px;
+    color: #5a3c53
+    
+    
+}
+label:hover{
+    background-color: #e6d2e1;
+
+}
+[type=radio]:hover{
+    background-color: #e6d2e1;
+
+}
+ul{
+    list-style: circle;
+}
+
