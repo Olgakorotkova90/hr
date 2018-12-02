@@ -1,3 +1,7 @@
+body{
+    width: 800px;
+    margin: auto;
+}
 h1 {
     margin: 0px;
     padding: 30px;
@@ -6,7 +10,7 @@ h1 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
 }
-p {
+h5 {
     font-size:110%;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -17,63 +21,89 @@ table, th, td {
     text-align: center;
     border-collapse: collapse;
 }
- 
+tr:not(:first-child):hover{
+    background-color: #e6d2e1;
+}
+
 .vacancy {
     margin: 0px;
     background-color:#f8f6f6;
+
+}
+.vacancy div{
+    display:inline-block;
 }
 .details{
-    margin: 20px 50px 0px 50px;
+        margin: 20px 50px 0px 50px;
     background-color: white;
 }
-#interviewdate {
+.interviewdate {
     margin: 0px;
 }
 .back{
     background-color: white;
+      
 }
 div > img {
     margin: 0px 20px 0px 20px;
 }
 #name {
     font-size:150%;
-    text-shadow: #464144;
+    text-shadow:5px 4px 6px #a5919d;
 }
 a:link{
     text-decoration: unset;
+    cursor: pointer;
     
 }
 a:visited{
     color: brown;
+    cursor: pointer;
 }
 a:hover{
     color: purple;
     font-size:110%;  
+    cursor: pointer;
 
 }
 input[type=text],[type=number],[type=date] {
     border: 1px solid #b890ae;
     border-radius: 4px;
+    cursor: pointer;
 }
 input[type=text]:focus,[type=number]:focus,[type=date]:focus{
     background-color: #e6d2e1;
+    outline: none;
 }
 select{
     border: 1px solid #b890ae;
     border-radius: 4px;
+    cursor: pointer;
 }
 select:focus{
     background-color: #e6d2e1;
+    outline: none;
 }
 input[type=submit]{
     background-color: #662b56;
+    background-image: linear-gradient(to right, #e6d2e1,#662b56);
     color: white;
+    border: 1px solid #b890ae;
+    border-radius: 4px;
+    cursor: pointer;
+    
 
+}
+.shadow{
+    display: inline;
+    box-shadow:10px 10px 5px grey;
+}
+input[type=submit]:focus{
+    outline: none;
 }
 .cr1::after {
     content: '\f086';
     font-family:'Font Awesome 5 Free';
-    margin-left: 4px;
     margin-right: 10px;
     color: #945711
     
@@ -107,10 +137,12 @@ input[type=submit]{
 }
 label:hover{
     background-color: #e6d2e1;
+    cursor: pointer;
 
 }
-[type=radio]:hover{
+[type=radio]:hover, [type=checkbox]:hover{
     background-color: #e6d2e1;
+    cursor: pointer;
 
 }
 ul{
