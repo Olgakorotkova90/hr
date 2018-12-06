@@ -98,17 +98,19 @@ input[type=submit]{
     display: inline;
     box-shadow:5px 5px 3px grey;
 }
-input[type=submit]:focus{
-    outline: none;
+.cr1 > input[type=checkbox ]{
+    margin-left: 0px;
 }
 .cr1::after {
     content: '\f086';
     font-family:'Font Awesome 5 Free';
+    margin-left: unset;
     margin-right: 10px;
     color: #945711
     
     
 }
+
 .cr2::after {
     content: '\f3d1';
     font-family:'Font Awesome 5 Free';
