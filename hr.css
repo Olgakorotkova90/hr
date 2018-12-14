@@ -98,13 +98,17 @@ input[type=submit]{
     display: inline;
     box-shadow:5px 5px 3px grey;
 }
-.cr1 > input[type=checkbox ]{
+/*.cr1 > input[type=checkbox ]{
     margin-left: 0px;
+}*/
+input[type=checkbox ]:first-child{
+    margin-left:0px;
 }
+
 .cr1::after {
     content: '\f086';
     font-family:'Font Awesome 5 Free';
-    margin-left: unset;
+    /*margin-left: unset;*/
     margin-right: 10px;
     color: #945711
     
